@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogos de tabuleiro</title>
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        </head>
+        <style>
+            legend{
+                color: #FFFFFF;
+            }
+            label{
+                color: #FFFFFF;
+            }
+        </style>
+        <body>
+            <p style="color: #A64301;">Páginas principais</p>
+            <ul type="circle">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="galeria.html" rel="prev">Galeria</a></li>
+            <li><a href="faleconosco.html">Interação</a></li>
+        </ul>
+            <p style="color: #A64301;">Páginas sobre alguns jogos</P>
+            <ul type="disc">
+                <li><a href="Card_wars.html" rel="next">Guerra de cartas</a></li>
+            </ul>
+            <fieldset>
+                <legend>Vamos interagir</legend>
+                <p><label for="idTexto">Digite seu jogo de tabuleiro favorito:</label><input type="text" name="nTexto" id="idTexto" size="40" placeholder="Jogos com cartas,damas..."></p>
+                <p><label for="idEmail">Digite seu Email:</label><input type="email" name="nEmail" id="idEmail" size="40" placeholder="prescisamos saber como te contatar"></p>
+                <p><label for="idData">Quando você lembra de ter jogado um jogo de tabuleiro?</label><input type="date" name="nData" id="idData"></p>
+                <label for="id1">O quanto você julga o nosso site útil?</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
+                for="id1">Muito útil</label>
+                <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 2" id="id2"><label for="id2">Médio</label>
+                <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 3" id="id3"><label for="id3">Pouco útil</label>
+                <br>
+                <br>
+                <label for="idNum">Quantos jogos de tabuleiro você possui em casa?</label><br><input type="number" name="nNum" id="idNum" min="0" max="10">
+                <br>
+                <br>
+                <label for="idSelecao">Qual desses te chama mais atenção?</label><br>
+                <select name="nSelecao" id="idSelecao">
+                    <option value="Coisa 1">Baralho</option>
+                    <option value="Coisa 2">Xadrez</option>
+                    <option value="Coisa 3">Batalha naval</option>
+                    <option value="Coisa 4">Guerra de cartas</option>
+                    <option value="Coisa 5">Monopoly</option>
+                </select>
+                <br>
+                <br>
+                <label for="idRange">Qual sua experiência com jogos de cartas?</label><br><input type="range" min="1" max="10" name="nRange" id="idRange">
+                <br>
+                <hr>
+                <label for="idCaixa">Escreva seu feedback sobre o site (possivelmente podemos entrar em contato por e-mail)</label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui sua opinião" name="nCaixa" id="idCaixa"></textarea><br>
+        </fieldset>

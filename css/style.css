@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+
+    --amarelo: #ECD84C;
+    --azul: #022A24;
+    --bege: #957B46;
+    --vermelho: #730202;
+    --larajna: #A64301;
+}
+
+body {
+    background-color: #022A24;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+a{
+    color:#730202;
+}
+
+li{
+    color: #FFFFFF;
+}
+
+h1{
+    color: #ECD84C;
+}
+
+h2{
+    color: #ECD84C;
+}
+
+h3{
+    color: #ECD84C;
+}
+
+h4{
+    color: #ECD84C;
+}

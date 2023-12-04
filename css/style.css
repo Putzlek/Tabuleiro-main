@@ -4,8 +4,8 @@
 
     --amarelo: #ECD84C;
     --azul: #022A24;
-    --bege: #957B46;
-    --vermelho: #730202;
+    --verde: #32936F;
+    --roxo: #5D2A42;
     --larajna: #A64301;
 }
 
@@ -18,7 +18,7 @@ p{
 }
 
 a{
-    color:#730202;
+    color:#5D2A42;
 }
 
 li{
